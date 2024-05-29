@@ -1,0 +1,19 @@
+body {
+    background-color: #f5f5ef;
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #090a00;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid #d1c3ad;
+    background-color: #b19291;
+    padding: 5px;
+    color: #f5f5ef;
+}

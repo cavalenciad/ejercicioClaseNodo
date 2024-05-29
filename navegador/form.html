@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/styles/form-styles.css">
+</head>
+<body>
+    <h1>Práctica de formularios</h1>
+    <a href="/index.html">Volver al inicio</a><br/><br/>
+    <form>
+        <fieldset>
+            <legend>Idioma</legend>
+            <input type="radio" name="idioma" value="idiomaingles">
+            <label for="ingles">Inglés</label><br/>
+            <input type="radio" name="idioma" value="idiomaespanol">
+            <label for="espanol">Español</label><br/>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre"><br/>
+            <label for="apellido">Apellido:</label>
+            <input type="text"><br/>
+            <label for="genero">Género:</label>
+            <select id="genero" name="genero">
+                <option value="femenino">Femenino</option>
+                <option value="masculino">Masculino</option>
+            </select><br/><br/>
+            <label for="crea-usuario">Creación usuario</label><br/>
+            <label for="username">Usuario:</label>
+            <input type="text" id="usuario" name="usuario"><br>
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo"><br>
+            <label for="pwd">Contraseña:</label>
+            <input type="password" id="pwd" name="pwd">
+        </fieldset>
+        <br/>
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+        <br/><br/>
+        <fieldset>
+            <legend>Lenguajes programación</legend>
+            <label>Escoge el/los lenguaje(s) de programación que manejas</label><br/>
+            <input type="checkbox" id="js" name="js" value="js">
+            <label for="js">JavaScript</label><br/>
+            <input type="checkbox" id="html" name="html" value="html">
+            <label for="html">HTML</label><br/>
+            <input type="checkbox" id="css" name="css" value="css">
+            <label for="css">CSS</label><br/>
+            <input type="checkbox" id="python" name="python" value="python">
+            <label for="python">Python</label><br/>
+            <input type="checkbox" id="angular" name="angular" value="angular">
+            <label for="angular">Angular</label><br/>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>Cumpleaños</legend>
+            <label for="nacimiento">Indica tu fecha de nacimiento:</label>
+            <input type="date" id="nacimiento" name="nacimiento">
+        </fieldset>
+        <br/><br/>
+        <input type="submit" value="Enviar información">
+    </form>
+    <br>
+    
+</body>
+</html>
